@@ -14,7 +14,6 @@
 		1F4CEB4D192EF6380093F1ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F4CEB4B192EF6380093F1ED /* InfoPlist.strings */; };
 		1F4CEB4F192EF6380093F1ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB4E192EF6380093F1ED /* main.m */; };
 		1F4CEB53192EF6380093F1ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB52192EF6380093F1ED /* AppDelegate.m */; };
-		1F4CEB56192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB54192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodeld */; };
 		1F4CEB58192EF6380093F1ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4CEB57192EF6380093F1ED /* Images.xcassets */; };
 		1F4CEB5F192EF6380093F1ED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4CEB5E192EF6380093F1ED /* XCTest.framework */; };
 		1F4CEB60192EF6380093F1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4CEB40192EF6370093F1ED /* Foundation.framework */; };
@@ -22,6 +21,13 @@
 		1F4CEB62192EF6380093F1ED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4CEB46192EF6380093F1ED /* CoreData.framework */; };
 		1F4CEB6A192EF6380093F1ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F4CEB68192EF6380093F1ED /* InfoPlist.strings */; };
 		1F4CEB6C192EF6380093F1ED /* iOSLabelTextScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB6B192EF6380093F1ED /* iOSLabelTextScrollTests.m */; };
+		1F4CEB77192EF6C30093F1ED /* BasicLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB76192EF6C30093F1ED /* BasicLabelViewController.m */; };
+		1F4CEB85192EF6DB0093F1ED /* CountriesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB79192EF6DB0093F1ED /* CountriesDataSource.m */; };
+		1F4CEB86192EF6DB0093F1ED /* MarketingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB7B192EF6DB0093F1ED /* MarketingDataSource.m */; };
+		1F4CEB87192EF6DB0093F1ED /* MultiiLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB7D192EF6DB0093F1ED /* MultiiLabelViewController.m */; };
+		1F4CEB89192EF6DB0093F1ED /* UIColor+StyleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB81192EF6DB0093F1ED /* UIColor+StyleHelper.m */; };
+		1F4CEB8A192EF6DB0093F1ED /* UILabel+XmaScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CEB84192EF6DB0093F1ED /* UILabel+XmaScroll.m */; };
+		1F4CEB8E192EF6FD0093F1ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4CEB8C192EF6FD0093F1ED /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +52,26 @@
 		1F4CEB50192EF6380093F1ED /* iOSLabelTextScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSLabelTextScroll-Prefix.pch"; sourceTree = "<group>"; };
 		1F4CEB51192EF6380093F1ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F4CEB52192EF6380093F1ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F4CEB55192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSLabelTextScroll.xcdatamodel; sourceTree = "<group>"; };
 		1F4CEB57192EF6380093F1ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F4CEB5D192EF6380093F1ED /* iOSLabelTextScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLabelTextScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4CEB5E192EF6380093F1ED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1F4CEB67192EF6380093F1ED /* iOSLabelTextScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSLabelTextScrollTests-Info.plist"; sourceTree = "<group>"; };
 		1F4CEB69192EF6380093F1ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F4CEB6B192EF6380093F1ED /* iOSLabelTextScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLabelTextScrollTests.m; sourceTree = "<group>"; };
+		1F4CEB75192EF6C30093F1ED /* BasicLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLabelViewController.h; sourceTree = "<group>"; };
+		1F4CEB76192EF6C30093F1ED /* BasicLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicLabelViewController.m; sourceTree = "<group>"; };
+		1F4CEB78192EF6DB0093F1ED /* CountriesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountriesDataSource.h; sourceTree = "<group>"; };
+		1F4CEB79192EF6DB0093F1ED /* CountriesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountriesDataSource.m; sourceTree = "<group>"; };
+		1F4CEB7A192EF6DB0093F1ED /* MarketingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketingDataSource.h; sourceTree = "<group>"; };
+		1F4CEB7B192EF6DB0093F1ED /* MarketingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketingDataSource.m; sourceTree = "<group>"; };
+		1F4CEB7C192EF6DB0093F1ED /* MultiiLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiiLabelViewController.h; sourceTree = "<group>"; };
+		1F4CEB7D192EF6DB0093F1ED /* MultiiLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiiLabelViewController.m; sourceTree = "<group>"; };
+		1F4CEB80192EF6DB0093F1ED /* UIColor+StyleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+StyleHelper.h"; sourceTree = "<group>"; };
+		1F4CEB81192EF6DB0093F1ED /* UIColor+StyleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StyleHelper.m"; sourceTree = "<group>"; };
+		1F4CEB82192EF6DB0093F1ED /* UILabel+XmaScroll_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XmaScroll_Private.h"; sourceTree = "<group>"; };
+		1F4CEB83192EF6DB0093F1ED /* UILabel+XmaScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XmaScroll.h"; sourceTree = "<group>"; };
+		1F4CEB84192EF6DB0093F1ED /* UILabel+XmaScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XmaScroll.m"; sourceTree = "<group>"; };
+		1F4CEB8D192EF6FD0093F1ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +136,21 @@
 			children = (
 				1F4CEB51192EF6380093F1ED /* AppDelegate.h */,
 				1F4CEB52192EF6380093F1ED /* AppDelegate.m */,
+				1F4CEB75192EF6C30093F1ED /* BasicLabelViewController.h */,
+				1F4CEB76192EF6C30093F1ED /* BasicLabelViewController.m */,
+				1F4CEB78192EF6DB0093F1ED /* CountriesDataSource.h */,
+				1F4CEB79192EF6DB0093F1ED /* CountriesDataSource.m */,
+				1F4CEB8C192EF6FD0093F1ED /* Main.storyboard */,
+				1F4CEB7A192EF6DB0093F1ED /* MarketingDataSource.h */,
+				1F4CEB7B192EF6DB0093F1ED /* MarketingDataSource.m */,
+				1F4CEB7C192EF6DB0093F1ED /* MultiiLabelViewController.h */,
+				1F4CEB7D192EF6DB0093F1ED /* MultiiLabelViewController.m */,
+				1F4CEB80192EF6DB0093F1ED /* UIColor+StyleHelper.h */,
+				1F4CEB81192EF6DB0093F1ED /* UIColor+StyleHelper.m */,
+				1F4CEB82192EF6DB0093F1ED /* UILabel+XmaScroll_Private.h */,
+				1F4CEB83192EF6DB0093F1ED /* UILabel+XmaScroll.h */,
+				1F4CEB84192EF6DB0093F1ED /* UILabel+XmaScroll.m */,
 				1F4CEB57192EF6380093F1ED /* Images.xcassets */,
-				1F4CEB54192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodeld */,
 				1F4CEB49192EF6380093F1ED /* Supporting Files */,
 			);
 			path = iOSLabelTextScroll;
@@ -211,6 +243,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1F4CEB34192EF6370093F1ED;
 			productRefGroup = 1F4CEB3E192EF6370093F1ED /* Products */;
@@ -228,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4CEB8E192EF6FD0093F1ED /* Main.storyboard in Resources */,
 				1F4CEB4D192EF6380093F1ED /* InfoPlist.strings in Resources */,
 				1F4CEB58192EF6380093F1ED /* Images.xcassets in Resources */,
 			);
@@ -248,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4CEB56192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodeld in Sources */,
+				1F4CEB8A192EF6DB0093F1ED /* UILabel+XmaScroll.m in Sources */,
+				1F4CEB85192EF6DB0093F1ED /* CountriesDataSource.m in Sources */,
 				1F4CEB53192EF6380093F1ED /* AppDelegate.m in Sources */,
+				1F4CEB87192EF6DB0093F1ED /* MultiiLabelViewController.m in Sources */,
+				1F4CEB86192EF6DB0093F1ED /* MarketingDataSource.m in Sources */,
+				1F4CEB77192EF6C30093F1ED /* BasicLabelViewController.m in Sources */,
 				1F4CEB4F192EF6380093F1ED /* main.m in Sources */,
+				1F4CEB89192EF6DB0093F1ED /* UIColor+StyleHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +326,15 @@
 				1F4CEB69192EF6380093F1ED /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F4CEB8C192EF6FD0093F1ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4CEB8D192EF6FD0093F1ED /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -457,19 +505,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1F4CEB54192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1F4CEB55192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodel */,
-			);
-			currentVersion = 1F4CEB55192EF6380093F1ED /* iOSLabelTextScroll.xcdatamodel */;
-			path = iOSLabelTextScroll.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1F4CEB35192EF6370093F1ED /* Project object */;
 }
