@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -138,7 +138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-316" y="-472"/>
+            <point key="canvasLocation" x="85" y="-788"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -172,7 +172,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBC-Sv-f2E" userLabel="LabelA">
-                                <rect key="frame" x="25" y="170" width="270" height="30"/>
+                                <rect key="frame" x="25" y="110" width="270" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -241,16 +241,16 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="cBC-Sv-f2E" secondAttribute="centerX" id="7Te-96-WEj"/>
-                            <constraint firstItem="lbj-Sd-8FS" firstAttribute="top" secondItem="cBC-Sv-f2E" secondAttribute="bottom" constant="30" id="HJB-Of-7K6"/>
                             <constraint firstItem="NOf-Wg-Y2z" firstAttribute="top" secondItem="kI7-wi-Uhg" secondAttribute="bottom" constant="25" id="J43-zR-XPv"/>
                             <constraint firstItem="NOf-Wg-Y2z" firstAttribute="width" secondItem="kAK-lm-tGx" secondAttribute="width" id="OJG-fW-POk"/>
                             <constraint firstItem="kI7-wi-Uhg" firstAttribute="top" secondItem="lbj-Sd-8FS" secondAttribute="bottom" constant="25" id="ZN7-ej-3b3"/>
-                            <constraint firstItem="cBC-Sv-f2E" firstAttribute="top" secondItem="gYF-i5-IdP" secondAttribute="bottom" constant="150" id="aSd-bh-DS5"/>
+                            <constraint firstItem="cBC-Sv-f2E" firstAttribute="top" secondItem="gYF-i5-IdP" secondAttribute="bottom" constant="90" id="aSd-bh-DS5"/>
                             <constraint firstAttribute="centerX" secondItem="kI7-wi-Uhg" secondAttribute="centerX" id="b7b-6X-Ked"/>
                             <constraint firstAttribute="centerX" secondItem="NOf-Wg-Y2z" secondAttribute="centerX" id="etT-UH-6Ya"/>
                             <constraint firstItem="kAK-lm-tGx" firstAttribute="top" secondItem="NOf-Wg-Y2z" secondAttribute="bottom" constant="25" id="liP-XV-Mr6"/>
                             <constraint firstAttribute="centerX" secondItem="lbj-Sd-8FS" secondAttribute="centerX" id="m80-KP-mbB"/>
                             <constraint firstAttribute="centerX" secondItem="kAK-lm-tGx" secondAttribute="centerX" id="stb-A6-X6h"/>
+                            <constraint firstItem="lbj-Sd-8FS" firstAttribute="top" secondItem="cBC-Sv-f2E" secondAttribute="bottom" constant="90" id="xPj-Ef-aTe"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Basic" id="Mo2-H7-cFG"/>
@@ -261,7 +261,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ng5-45-QUl" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-316" y="-1051"/>
+            <point key="canvasLocation" x="-260" y="-788"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

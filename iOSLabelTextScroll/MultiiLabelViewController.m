@@ -134,8 +134,8 @@ typedef NS_ENUM(NSUInteger, DataSourceSelected) {
 }
 
 - (void) scrollLabelsDownWithText:(NSString *)labelText {
-	[self.labelB setText:self.labelA.text scrolling:XmaScrollDown];
 	[self.labelC setText:self.labelB.text scrolling:XmaScrollDown];
+	[self.labelB setText:self.labelA.text scrolling:XmaScrollDown];
 	[self.labelA setText:labelText scrolling:XmaScrollDown];
 }
 

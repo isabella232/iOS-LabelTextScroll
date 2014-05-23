@@ -110,8 +110,8 @@ static char	XMA_ORIGINAL_TEXT_COLOR_KEY;
 		}
 		
 		if([self xmaBackgroundsOn]) {
-			scrollingInLabel.backgroundColor = [UIColor yellowColor];
-			scrollingOutLabel.backgroundColor = [UIColor grayColor];
+			scrollingInLabel.backgroundColor = [UIColor lightGrayColor];
+			scrollingOutLabel.backgroundColor = [UIColor tanBackground];
 			
 		} else {
 			scrollingInLabel.backgroundColor = [UIColor clearColor];
